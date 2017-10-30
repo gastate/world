@@ -1,6 +1,6 @@
 $(function () {
     console.log("let's go!");
-
+//Added new comment kkr
     //a person has a name (string), a set of moods(aray of strings), and a set of behaviors(array of objects)
     function person(name, behaviors, moods, dances) {
         this.constructor.population++;
