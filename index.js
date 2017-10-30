@@ -25,7 +25,7 @@ $(function () {
         },
         {
             speak: function () {
-                return "I'm hungry.";
+                  return "Betsy says I'm hungry.";
             }
         }
     ];
