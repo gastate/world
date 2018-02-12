@@ -17,7 +17,9 @@ $(function () {
     }
 
 
-    var jaro_behaviors = [
+
+
+    var jaro_behaviors1 = [
         {
             speak: function (mood) {
                 return "I'm " + mood;
