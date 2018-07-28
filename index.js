@@ -1,5 +1,5 @@
 $(function () {
-    console.log("let's go!");
+    console.log("let's go again!");
 
     //a person has a name (string), a set of moods(aray of strings), and a set of behaviors(array of objects)
     function person(name, behaviors, moods, dances) {
@@ -25,12 +25,13 @@ $(function () {
         },
         {
             speak: function () {
-                return "I'm hungry.";
+                return "I'm very hungry.";
+
             }
         }
     ];
 
-    var jaro_moods = ["happy", "sleepy", "energized", "sick"];
+    var jaro_moods = ["happy", "sleepiest", "energized", "sick"];
     var jaro = new person("jaro", jaro_behaviors, jaro_moods);
     jaro.dances = ['belly dance', 'interpretive dance', 'mosh'];
 
