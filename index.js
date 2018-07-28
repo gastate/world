@@ -30,7 +30,7 @@ $(function () {
         }
     ];
 
-    var jaro_moods = ["happy", "sleepy", "energized", "sick"];
+    var jaro_moods = ["happy", "sleepiest", "energized", "sick"];
     var jaro = new person("jaro", jaro_behaviors, jaro_moods);
     jaro.dances = ['belly dance', 'interpretive dance', 'mosh'];
 
